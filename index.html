@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!--Bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="topnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.jpeg" width="50" alt="" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="form">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="search"
+            />
+            <button class="btn btn-outline-light" type="submit" id="btn">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bird2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bird1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bird 5.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bird4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid">
+
+      <!-- banner -->
+
+      <div class="row justify-content-center" id="banner">
+        <div class="col-md-6" id="left">
+          <h1>
+            First I wanted to be<br />
+            a veterinarian
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            architecto ipsum distinctio aliquid nobis. Ad, cum optio. Qui animi
+            quasi voluptate doloremque, facere perspiciatis saepe magni suscipit
+            nisi aperiam unde.
+          </p>
+          <button type="button" id="btn1">Contact Us</button>
+          <button type="button" id="btn2">Our Service</button>
+        </div>
+        <div class="col-md-4" id="img">
+          <img src="./images/bird 12.jpg" class="img-fluid h-100" alt="" />
+        </div>
+      </div>
+
+      <!-- service -->
+
+      <div class="row justify-content-center">
+        <div class="col-md-4" id="text">
+          <h1>As a veterinarian and<br />lover of birds</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+            velit expedita libero fugiat nesciunt facere eius eveniet itaque
+            voluptatibus rem voluptatum neque obcaecati dicta quod dignissimos
+            tempore veritatis, eaque accusantium?
+          </p>
+          <button type="button" class="btn" id="sbtn">Our Service</button>
+        </div>
+        <div class="col-md-5" id="simg" alt="">
+          <img src="images/imgage.jpg" id="image" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- counter -->
+
+      <div class="row justify-content-center" id="counter">
+        <div class="col-md-3 text-center mt-5 mb-3">
+          <i class="fa-solid fa-heart-circle-plus icon"></i>
+          <h3>
+            +34793<br />
+            Happy Client
+          </h3>
+        </div>
+        <div class="col-md-3 text-center mt-5 mb-3">
+          <i class="fa-sharp fa-solid fa-stethoscope icon"></i>
+          <h3>
+            +45698<br />
+            Department
+          </h3>
+        </div>
+        <div class="col-md-3 text-center mt-5 mb-3">
+          <i class="fa-solid fa-syringe icon"></i>
+          <h3>
+            +76239<br />
+            Vaccination
+          </h3>
+        </div>
+      </div>
+
+      <!-- blog -->
+
+      <div class="row justify-content-center" id="blog">
+        <div class="col-12 text-center">
+          <h1 id="title">Resent Posts</h1>
+          <p id="para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit veniam fugiat,<br> animi odio ipsam quae sequi quo.</p>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4">
+          <img src="images/b1.jpg" class="img-fluid" alt="" />
+          <div class="detail">
+            <h4 class="heading">As a veterinarian and lover of birds</h4>
+            <p class="date">FEBRUARY 06,2022</p>
+            <p class="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              ipsa similique delectus dignissimos atque sapiente quas suscipit
+              perferendis? Minima.</p>
+            <p><a href="#" class="lik">Read more</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4">
+          <img src="images/b2.jpg" class="img-fluid" alt="" />
+          <div class="detail">
+            <h4 class="heading">As a veterinarian and lover of birds</h4>
+            <p class="date">FEBRUARY 06,2022</p>
+            <p class="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              ipsa similique delectus dignissimos atque sapiente quas suscipit
+              perferendis? Minima.</p>
+            <p><a href="#" class="lik">Read more</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4">
+          <img src="images/amz.jpg" class="img-fluid" alt="" />
+          <div class="detail">
+            <h4 class="heading">As a veterinarian and lover of birds</h4>
+            <p class="date">FEBRUARY 06,2022</p>
+            <p class="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              ipsa similique delectus dignissimos atque sapiente quas suscipit
+              perferendis? Minima.</p>
+            <p><a href="#" class="lik">Read more</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      
+      <div class="row justify-content-center text-white" id="footer">
+        <div class="col-md-3">
+          <h4>About</h4>
+          <a href="">History</a><br>
+          <a href="">Our Team</a><br>
+          <a href="">Brand Guidelines</a><br>
+          <a href="">Terms&Condition</a><br>
+          <a href="">Privacy Policy</a><br>
+        </div>
+        <div class="col-md-2">
+          <h4>Services</h4>
+          <a href="">How to Order</a><br>
+          <a href="">Our Product</a><br>
+          <a href="">Order Status</a><br>
+          <a href="">Promo</a><br>
+          <a href="">Payment Method</a><br>
+        </div>
+        <div class="col-md-4 text-end">
+          <h4>Title</h4>
+          <p>Lorem ipsum dolor sit emet</p>
+          <form action="" id="form">
+            <input type="text" id="search-box">
+            <button type="submit" id="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+          <i class="fa-brands fa-instagram social-icon"></i>
+          <i class="fa-brands fa-facebook social-icon"></i>
+          <i class="fa-brands fa-twitter social-icon"></i>
+          <i class="fa-brands fa-whatsapp social-icon"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

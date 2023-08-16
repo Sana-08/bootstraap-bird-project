@@ -1,0 +1,192 @@
+#topnav{
+    background-color: rgb(159, 156, 156);
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0 1%;
+}
+
+#search{
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    box-shadow: 0 5px 8px #000000;
+}
+
+#btn{
+    position: relative;
+    z-index: 99;
+    border-radius: 0;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 5px 8px #000000;
+}
+
+#btn:hover{
+    background-color: rgb(224, 175, 83);
+}
+
+@media only screen and (max-width :786px) {
+    #form{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+    }
+}
+
+.carousel-inner img {
+    height: 600px; /* Set your desired height here */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.row img{
+    height: 300px;
+    width: 600px;
+}
+
+/* banner */
+
+#banner{
+    background-color: rgb(230, 196, 133);
+    padding-top: 3rem;
+}
+
+#left h1{
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+#left p{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+#btn1{
+    margin-top: 2rem;
+    background-color: #ffc0cb;
+    border: 1px solid #ffc0cb;
+}
+
+#btn2{
+    margin-top: 2rem;
+    background-color: #ffc0cb;
+    border: 1px solid #ffc0cb;
+}
+
+/* servise */
+
+#image{
+    height:30rem;
+    width:27rem;
+    margin-left:7rem;
+    margin-top: 3rem;
+}
+
+#text{
+    margin-top: 8rem;
+}
+
+#text h1{
+    font-size: 2.7rem;
+}
+
+#text p{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+#sbtn{
+    background-color: #ffc0cb;
+    border: 1px solid #ffc0cb;
+}
+
+/* counter */
+
+#counter{
+    background-color: #ffc0cb;
+    background-image: url("images/hor.jpeg");
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 3rem;
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+/* blog */
+
+#blog{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+#title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#para{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.detail{
+    padding: 1.1rem;
+    border: 1px solid rgb(128, 126, 126);
+    border-top: 0;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+.lik, .date{
+    color: #00bec9;
+}
+
+/* footer */
+
+#footer{
+    background-color: #343434;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#form{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#search-box{
+    background-color: rgb(230, 196, 133);
+    color: white;
+    border: 0;
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 0.8rem;
+}
+
+#submit{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 0.7rem;
+    margin-left: 0.8rem;
+}
+
+
+.social-icon{
+    font-size: 1rem;
+    padding-left: 5px;
+}
